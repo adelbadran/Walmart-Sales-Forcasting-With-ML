@@ -6,13 +6,17 @@ Predicts Walmart’s weekly sales using historical data, store info, and externa
 ---
 
 ## 📂 Dataset
-The dataset is the [Walmart Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting) dataset, publicly available on Kaggle.  
-It consists of four main CSV files:
+This project uses the [Walmart Sales Forecast dataset by Aslan Ahmedov on Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast).  
 
-- features.csv → Contains additional variables such as temperature, fuel price, CPI, unemployment, and holiday indicators.
-- stores.csv → Store metadata including store type and size.
-- train.csv → Historical weekly sales for each store and department.
-- test.csv → Data for which predictions are required (sales values not provided).
+It includes:
+- Train data: Weekly sales data by store and department from February 2010 to November 2012.
+- Test data: Same format without Weekly_Sales values for prediction.
+- stores.csv: Metadata for ~45 Walmart stores (type and size).
+- features.csv: Contains external variables like Temperature, Fuel_Price, CPI, Unemployment, and Holiday_Flag.
+
+This rich feature set enables modeling the effects of economic conditions and holidays on sales trends.
+
+---
 
 Preprocessing Steps:
 1. Merge all datasets into one.
