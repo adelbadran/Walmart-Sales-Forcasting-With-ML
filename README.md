@@ -1,8 +1,7 @@
 # 🛒 Walmart Sales Forecasting with Machine Learning
 
-## 📌 Project Overview
-This project predicts weekly sales for Walmart stores using historical sales data, store details, and external factors such as holidays and economic indicators.  
-By applying advanced machine learning models like Linear Regression and XGBoost, the aim is to help Walmart optimize inventory, plan promotions, and forecast demand accurately.
+## 📌 Description
+Predicts Walmart’s weekly sales using historical data, store info, and external factors, using Linear Regression as a baseline and XGBoost as an advanced model for more accurate demand forecasting.
 
 ---
 
@@ -30,9 +29,8 @@ Preprocessing Steps:
 - Python
 - Pandas, NumPy → Data manipulation
 - Matplotlib, Seaborn → Visualization
-- scikit-learn → ML algorithms & metrics
+- scikit-learn → ML algorithms & metrics (Linear Regression)
 - XGBoost → Gradient boosting regression
-- LightGBM → Alternative boosting approach
 - Statsmodels → Time series decomposition
 
 ---
@@ -45,7 +43,7 @@ Preprocessing Steps:
    - Linear Regression (baseline model)
    - XGBoost with hyperparameter tuning using GridSearchCV
 5. Evaluation:
-   - SMAPE, MAPE, MAE, MSE, RMSE, R², Adjusted R²
+   - SMAPE, RMSE, R²
 6. Visualization → Compare actual vs predicted weekly sales.
 
 ---
