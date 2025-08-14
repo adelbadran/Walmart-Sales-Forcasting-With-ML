@@ -48,8 +48,8 @@ Preprocessing Steps:
 
 ---
 
-## 📈 Results
-| Model              | SMAPE (%) | RMSE   | R²    |
+## 📈 Results (%)
+| Model              | SMAPE | RMSE   | R²    |
 |--------------------|-----------|--------|-------|
 | Linear Regression  | 35.43     | 18.33  | 0.98  |
 | XGBoost            | 28.31     | 13.16  | 0.99  |
