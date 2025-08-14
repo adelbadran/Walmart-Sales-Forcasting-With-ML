@@ -56,10 +56,3 @@ Preprocessing Steps:
 
 - XGBoost significantly outperformed Linear Regression in terms of accuracy and error reduction.
 - Seasonal trends and holiday effects were successfully captured.
-
----
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/walmart-sales-forecasting.git
