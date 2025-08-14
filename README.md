@@ -16,8 +16,6 @@ It includes:
 
 This rich feature set enables modeling the effects of economic conditions and holidays on sales trends.
 
----
-
 Preprocessing Steps:
 1. Merge all datasets into one.
 2. Handle missing values and duplicates.
